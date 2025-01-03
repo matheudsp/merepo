@@ -11,13 +11,13 @@ const Contact = () => {
         </h2>
         <div className="flex justify-center space-x-4 sm:space-x-8 mb-12">
           <a 
-            href="mailto:seu-email@exemplo.com" 
+            href="mailto:mdsp.personal@gmail.com" 
             className="p-3 bg-gray-100 rounded-full transform transition-all duration-300 hover:bg-gray-200 hover:scale-110 hover:shadow-lg"
           >
             <Mail className="h-5 w-5 sm:h-6 sm:w-6" />
           </a>
           <a 
-            href="https://github.com/seu-usuario" 
+            href="https://github.com/matheudsp" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="p-3 bg-gray-100 rounded-full transform transition-all duration-300 hover:bg-gray-200 hover:scale-110 hover:shadow-lg"
@@ -25,7 +25,7 @@ const Contact = () => {
             <Github className="h-5 w-5 sm:h-6 sm:w-6" />
           </a>
           <a 
-            href="https://linkedin.com/in/seu-usuario" 
+            href="https://www.linkedin.com/in/matheudsp/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="p-3 bg-gray-100 rounded-full transform transition-all duration-300 hover:bg-gray-200 hover:scale-110 hover:shadow-lg"
