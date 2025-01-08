@@ -1,17 +1,18 @@
-import React from 'react';
-import { Code2, Smartphone, Layout, ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Contact from './components/Contact';
+
+import { HeroSection } from './components/HeroSection';
+import { ServicesSection } from './components/ServicesSection';
+import { ProjectsSection } from './components/ProjectsSection';
+import { ContactSection } from './components/ContactSection';
+import { Navbar } from './components/Navbar';
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
-      <Header />
-      <Hero />
-      <Services />
-      <Contact />
+      <Navbar />
+      <HeroSection />
+      <ServicesSection />
+      <ProjectsSection />
+      <ContactSection />
     </div>
   );
 }
